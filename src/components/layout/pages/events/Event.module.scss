@@ -1,0 +1,54 @@
+.events {
+  .container {
+    .bg {
+      background-color: rgba(56, 56, 184, 0.244);
+      width: 100%;
+      height: 900px;
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1570px;
+        margin-inline: auto;
+        padding-inline: 20px;
+
+        .quest_img {
+          position: absolute;
+          margin-left: -1050px;
+          margin-top: -200px;
+          width: 700px;
+        }
+
+        .gem_img {
+          position: absolute;
+          margin-top: -100px;
+          margin-right: -1000px;
+          width: 400px;
+        }
+
+        h1 {
+          font-size: 60px;
+          font-weight: 800;
+          letter-spacing: 2px;
+          text-shadow:
+            0 0 5px #aea6a6f2,
+            0 0 10px #aea6a6f2,
+            0 0 20px #111E2C,
+            0 0 30px #111E2C,
+            0 0 40px #111E2C,
+            0 0 50px #111E2C,
+            0 0 60px #111E2C;
+          animation: led-animation 1.5s infinite alternate;
+          margin-left: 20px;
+          padding-top: 25px;
+        }
+
+        p {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

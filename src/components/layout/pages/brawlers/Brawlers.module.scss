@@ -1,0 +1,458 @@
+.brawlers {
+  [class^="number-slide"],
+  [class*=" number-slide"] {
+    background: #2a2a2d4e;
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: 300px;
+    width: 100%;
+    max-width: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.2s;
+      background-color: #2a2a2d85;
+      border: 1px solid rgba(0, 0, 0, 0.149);
+    }
+  }
+
+  .number-slide1 {
+    background: rgb(64, 175, 255);
+    background: linear-gradient(128deg,
+        rgba(64, 175, 255, 1) 0%,
+        rgba(63, 97, 255, 1) 100%);
+  }
+
+  .container {
+    .content {
+      .bg {
+        img {
+          position: absolute;
+          z-index: -1;
+          width: 100%;
+          height: 500px;
+        }
+      }
+
+      .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1570px;
+        margin-inline: auto;
+        padding-inline: 20px;
+        margin-bottom: 51px;
+
+        .loading {
+          margin-bottom: 281px;
+        }
+
+        .SHELLY {
+          width: 110px;
+        }
+
+        .BULL {
+          width: 150px;
+        }
+
+        .BROCK {
+          width: 190px;
+        }
+
+        .RICO {
+          width: 180px;
+        }
+
+        .SPIKE {
+          width: 190px;
+        }
+
+        .BARLEY {
+          width: 140px;
+        }
+
+        .JESSIE {
+          width: 180px;
+        }
+
+        .DYNAMIKE {
+          width: 180px;
+        }
+
+        .MORTIS {
+          width: 210px;
+        }
+
+        .POCO {
+          width: 180px;
+        }
+
+        .BO {
+          width: 170px;
+        }
+
+        .PAM {
+          width: 190px;
+        }
+
+        .TARA {
+          width: 110px;
+        }
+
+        .DARRYL {
+          width: 240px;
+        }
+
+        .PENNY {
+          width: 150px;
+        }
+
+        .FRANK {
+          width: 200px;
+        }
+
+        .GENE {
+          width: 140px;
+        }
+
+        .TICK {
+          width: 200px;
+        }
+
+        .LEON {
+          width: 130px;
+        }
+
+        .ROSA {
+          width: 120px;
+        }
+
+        .CARL {
+          width: 170px;
+        }
+
+        .BIBI {
+          width: 150px;
+        }
+
+        .bit_8 {
+          width: 220px;
+        }
+
+        .SANDY {
+          width: 130px;
+        }
+
+        .BEA {
+          width: 120px;
+        }
+
+        .EMZ {
+          width: 130px;
+        }
+
+        .MAX {
+          width: 110px;
+        }
+
+        .NANI {
+          width: 220px;
+        }
+
+        .SPROUT {
+          width: 230px;
+        }
+
+        .SURGE {
+          width: 210px;
+        }
+
+        .COLETTE {
+          width: 120px;
+        }
+
+        .AMBER {
+          width: 120px;
+        }
+
+        .LOU {
+          width: 215px;
+        }
+
+        .BYRON {
+          width: 150px;
+        }
+
+        .STU {
+          width: 180px;
+        }
+
+        .SQUEAK {
+          width: 220px;
+        }
+
+        .BELLE {
+          width: 190px;
+        }
+
+        .GROM {
+          width: 180px;
+        }
+
+        .GRIFF {
+          width: 160px;
+        }
+
+        .ASH {
+          width: 280px;
+        }
+
+        .FANG {
+          width: 100px;
+        }
+
+        .LOLA {
+          width: 180px;
+        }
+
+        .EVE {
+          width: 190px;
+        }
+
+        .JANET {
+          width: 120px;
+        }
+
+        .CLANCY {
+          width: 240px;
+        }
+
+        .BERRY {
+          width: 190px;
+        }
+
+        .LILY {
+          width: 120px;
+        }
+
+        .DRACO {
+          width: 160px;
+        }
+
+        .MELODIE {
+          width: 190px;
+        }
+
+        .MICO {
+          width: 170px;
+        }
+
+        .CHARLIE {
+          width: 180px;
+        }
+
+        .CHUCK {
+          width: 180px;
+        }
+
+        .PEARL {
+          width: 240px;
+        }
+
+        .CORDELIUS {
+          width: 290px;
+        }
+
+        .HANK {
+          width: 190px;
+        }
+
+        .MANDY {
+          width: 160px;
+        }
+
+        .GRAY {
+          width: 130px;
+        }
+
+        .CHESTER {
+          width: 110px;
+        }
+
+        .GUS {
+          width: 190px;
+        }
+
+        .SAM {
+          width: 200px;
+        }
+
+        .OTIS {
+          width: 160px;
+        }
+
+        .BONNIE {
+          width: 170px;
+        }
+
+        .BUZZ {
+          width: 210px;
+        }
+
+        .R_T {
+          width: 190px;
+        }
+
+        .MR_P {
+          width: 170px;
+        }
+
+        img {
+          height: 100%;
+          max-height: 300px;
+          width: 140px;
+        }
+
+        h1 {
+          margin-top: 15px;
+          font-size: 60px;
+          font-weight: 800;
+          letter-spacing: 2px;
+          text-shadow:
+            0 0 5px #ffffff00,
+            0 0 10px #ffffff00,
+            0 0 20px #112235,
+            0 0 30px #112235,
+            0 0 40px #112235,
+            0 0 50px #112235,
+            0 0 60px #112235;
+          animation: led-animation 1.5s infinite alternate;
+        }
+
+        @keyframes led-animation {
+          0% {
+            text-shadow:
+              0 0 5px #ffffff00,
+              0 0 10px #ffffff00,
+              0 0 20px #112235,
+              0 0 30px #112235,
+              0 0 40px #112235,
+              0 0 50px #112235,
+              0 0 60px #112235;
+          }
+
+          100% {
+            text-shadow:
+              0 0 10px #ffffff00,
+              0 0 20px #ffffff00,
+              0 0 30px #112235,
+              0 0 40px #112235,
+              0 0 50px #112235,
+              0 0 60px #112235,
+              0 0 70px #112235;
+          }
+        }
+
+        p {
+          margin-top: 5px;
+          margin-bottom: 35px;
+        }
+      }
+
+      .brawlers_bottom {
+        position: relative;
+        z-index: 1;
+        background-color: #121F2E;
+        width: 100%;
+        height: 205px;
+        .bottom_brawler_information {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-inline: auto;
+          padding-inline: 20px;
+          width: 100%;
+          max-width: 1570px;
+        img {
+          margin-left: 15px;
+          width: 220px;
+        }
+
+        .spike_png {
+          margin-left: 0;
+          margin-right: 25px;
+        }
+
+        .bottom_information {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 100px;
+
+          .bt_1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+              width: 115px;
+            }
+
+            p {
+              font-weight: 700;
+              font-size: 18px;
+              margin-top: 25px;
+            }
+          }
+
+          .bt_2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+              margin-top: 10px;
+              width: 70px;
+            }
+
+            p {
+              font-weight: 700;
+              font-size: 18px;
+              margin-top: 25px;
+            }
+          }
+
+          .bt_3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+              margin-top: 20px;
+              width: 100px;
+            }
+
+            p {
+              font-weight: 700;
+              font-size: 18px;
+              margin-bottom: 40px;
+            }
+          }
+        }
+        }
+      }
+    }
+  }
+}
