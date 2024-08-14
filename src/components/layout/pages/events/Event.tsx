@@ -19,10 +19,11 @@ const Event = () => {
             <img className={scss.gem_img} src={gemGrabIcon} alt="GemGrabIcon" />
 
             <div className={scss.events_div}>
-              {data?.map((e, index) => (
+              {/* {data?.map((e, index) => (
                 <div className={scss.map} key={index}>
+                  <p>{e.event}</p>
                 </div>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>

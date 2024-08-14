@@ -1,20 +1,22 @@
 namespace BRAWLERSSTORE {
   type IBrawlers = {
     items: [
-      gadgets: [
-        {
-          name: {},
-          id: number
-        }
-      ],
-      name: {},
-      id: number,
-      starPowers: [
-        {
-          name: {},
-          id: number
-        }
-      ]
+      {
+        gadgets: [
+          {
+            name: {},
+            id: number
+          }
+        ],
+        name: {},
+        id: number,
+        starPowers: [
+          {
+            name: {},
+            id: number
+          }
+        ]
+      }
     ]
   }
 
@@ -30,7 +32,6 @@ namespace BRAWLERSSTORE {
   type GetBrawlersRequest = string;
 
 
-  type GetEventsResponse = IEvent[]
-
+  type GetEventsResponse = IEvent[];
   type GetEventsRequest = string;
 }

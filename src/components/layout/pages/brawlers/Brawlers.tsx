@@ -4,7 +4,6 @@ import { useGetBrawlersQuery } from "../../../../redux/api"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import { brawlersData } from "../../../../data/brawlersList"
-import { Key } from "react"
 import nitaImg from "../../../../assets/nita.png"
 import bookImg from "../../../../assets/book.png"
 import starPowerImg from "../../../../assets/starpower.png"
@@ -54,7 +53,7 @@ const Brawlers = () => {
                   <div className={scss.loading}>Loading...</div>
                 ) : (
                   <div ref={sliderRef} className="keen-slider">
-                    {data?.items?.map((e: { name: string }, index: Key | null | undefined) => (
+                    {data?.[0]?.items?.map((e, index) => (
                       <div key={index} className="keen-slider__slide number-slide1">
                         {brawlersData.map((br, brIndex) => (
                           <div className={scss.cards} key={brIndex}>
