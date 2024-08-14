@@ -1,4 +1,3 @@
-import scss from "./Footer.module.scss"
 
 const Footer = () => {
   return (
